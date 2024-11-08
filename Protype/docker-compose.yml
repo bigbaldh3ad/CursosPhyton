@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  cont1:
+    build:
+      context: .
+      dockerfile: dockerfile.fer
+    ports:
+      - "127:8000"
+    networks:
+      - my_network
+
+  cont2:
+    build:
+      context: .
+      dockerfile: dockerfile.flin
+    ports:
+      - "128:8001"
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
+

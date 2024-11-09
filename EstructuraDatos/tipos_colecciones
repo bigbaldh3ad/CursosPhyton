@@ -1,0 +1,48 @@
+Tipos de Colecciones 
+
+Listas (list)
+Definición: Una lista es una colección ordenada y mutable de elementos. Es decir, puedes modificar, agregar o eliminar elementos después de crearla. Los elementos dentro de una lista están indexados, lo que significa que cada elemento tiene una posición específica.
+
+Características:
+
+Ordenadas: Mantienen el orden de los elementos según cómo se añadieron.
+
+Mutables: Los elementos pueden ser cambiados.
+
+Indexadas: Cada elemento tiene un índice que comienza en 0.
+
+
+Tuplas (tuple)
+Definición: Una tupla es similar a una lista, pero es inmutable. Una vez creada, no puedes cambiar, agregar ni eliminar elementos. Se usan para almacenar colecciones de elementos que no deben cambiar a lo largo del tiempo.
+
+Características:
+
+Ordenadas: Mantienen el orden de los elementos.
+
+Inmutables: No pueden ser cambiadas una vez creadas.
+
+Indexadas: Al igual que las listas, los elementos tienen índices.
+
+
+Conjuntos (set)
+Definición: Un conjunto es una colección desordenada de elementos únicos. Los conjuntos son útiles cuando necesitas almacenar elementos sin duplicados y realizar operaciones matemáticas como unión, intersección y diferencia.
+
+Características:
+
+Desordenados: No mantienen un orden específico de los elementos.
+
+Elementos únicos: No permiten duplicados.
+
+Mutables: Puedes agregar o eliminar elementos, pero los elementos deben ser inmutables.
+
+
+Diccionarios (dict)
+Definición: Un diccionario es una colección desordenada de pares clave-valor. Cada clave en un diccionario debe ser única, y se usa para almacenar datos relacionados de manera eficiente.
+
+Características:
+
+Desordenados: (Antes de Python 3.7) No mantienen el orden de los elementos; a partir de Python 3.7, mantienen el orden de inserción.
+
+Claves únicas: Cada clave en un diccionario debe ser única.
+
+Mutables: Puedes cambiar, agregar o eliminar pares clave-valor.

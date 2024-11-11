@@ -12,23 +12,23 @@ class Array(object):
             self.elementos.append(valor_relleno)
 
     def __len__(self):
-        """Devuelve la capacidad del array."""
+        #Devuelve la capacidad del array.
         return len(self.elementos)
 
     def __str__(self):
-        """Devuelve la representación en cadena del array."""
+        #Devuelve la representación en cadena del array.
         return str(self.elementos)
 
     def __iter__(self):
-        """Soporta el recorrido con un bucle for."""
+        #Soporta el recorrido con un bucle for.
         return iter(self.elementos)
 
     def __getitem__(self, indice):
-        """Operador de subíndice para acceso en el índice."""
+        #Operador de subíndice para acceso en el índice.
         return self.elementos[indice]
 
     def __setitem__(self, indice, nuevo_elemento):
-        """Operador de subíndice para reemplazo en el índice."""
+        #Operador de subíndice para reemplazo en el índice.
         self.elementos[indice] = nuevo_elemento
 
 if __name__ == "__main__":
